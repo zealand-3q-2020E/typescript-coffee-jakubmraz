@@ -8,4 +8,8 @@ export class BlackCoffee extends Coffee{
     Strength():string{
         return "Strong";
     }
+
+    CoffeeDrink():string{
+        return "Black Coffee";
+    }
 }

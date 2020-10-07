@@ -1,3 +1,5 @@
+import {IMilk} from './Imilk';
+
 export abstract class Coffee{
     discount:number;
 
@@ -7,8 +9,13 @@ export abstract class Coffee{
     }
 
     abstract Price():number;
+    abstract CoffeeDrink():string;
     
     Strength():string{
         return "Weak";
+    }
+
+    Summary():string{
+        return this.CoffeeDrink() + "'s summary: Price: " + this.Price() + "kr, Strength: " + this.Strength();        
     }
 }

@@ -32,3 +32,10 @@ let blackCoffee = new BlackCoffee();
 console.log("Black Coffee: Price");
 console.log(blackCoffee.Price());
 
+console.log("Now logging the summary of all objects declared so far:");
+console.log(cortado.CoffeeDrink());
+console.log(cheapCortado.CoffeeDrink());
+console.log(latte.CoffeeDrink());
+console.log(cheapBlackCoffee.CoffeeDrink());
+console.log(blackCoffee.CoffeeDrink());
+

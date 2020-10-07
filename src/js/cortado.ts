@@ -13,4 +13,8 @@ export class Cortado extends Coffee implements IMilk{
     MlMilk():number{
         return 25;
     }
+
+    CoffeeDrink():string{
+        return "Cortado";
+    }
 }

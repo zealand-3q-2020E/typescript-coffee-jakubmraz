@@ -13,4 +13,8 @@ export class Latte extends Coffee implements IMilk{
     MlMilk():number{
         return 120;
     }
+
+    CoffeeDrink():string{
+        return "Latte";
+    }
 }
